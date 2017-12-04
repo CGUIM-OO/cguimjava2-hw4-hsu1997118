@@ -49,10 +49,10 @@ public class Deck{
 		nUsed+=1;
 		
 		if(isOpened) {
-			openCard.add(cards.get(nUsed-1));
+			openCard.add(cards.get(nUsed));
 		}
-		usedCard.add(cards.get(nUsed-1));
-		return cards.get(nUsed-1);
+		usedCard.add(cards.get(nUsed));
+		return cards.get(nUsed);
 	}
 
 	public void shuffle() {
