@@ -45,7 +45,7 @@ public class Player {
 	}
 	public int getCurrentChips() {
 		//回傳玩家現有籌碼
-		return chips=chips-bet;
+		return chips;
 	}
 	public void increaseChips (int diff) {
 		//玩家籌碼變動，setter
