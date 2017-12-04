@@ -2,10 +2,8 @@ public class Card{
 	enum Suit {Club,Diamond,Heart,Spade};
 	private Suit suit; //Definition: 1~4, Clubs=1, Diamonds=2, Hearts=3, Spades=4
 	private int rank; //1~13
-	/**
-	 * @param s suit
-	 * @param r rank
-	 */
+	
+	
 	public Card(Suit s,int r){
 		suit=s;
 		rank=r;
